@@ -1,0 +1,71 @@
+*{
+    font-family: sans-serif;
+    /* border: dashed 1px blue; */
+    border: none !important;
+}
+body{
+    border: none;
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0px !important;
+}
+p {
+    border: solid 1px purple;
+}
+div {
+    border: 1px solid orange;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+span {
+    font-weight: bold;
+}
+
+#cabecera div { /* descendientes */
+    display: inline-block;
+}
+#photo-container{
+    width: 35%;
+}
+#title-container{
+    width: 64%;
+}
+#photo-container img{
+    height: 200px;
+}
+#container {
+    max-width: 1000px;
+    overflow: hidden;
+    border: red solid 1px;
+    /* padding-top: 1px; */
+    margin: 20px auto;
+}
+#top-bar, #footer-info{
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 20px;
+    
+}
+#footer-info{
+    position: relative;
+    top: 0px;
+    /* bottom: 0px; */
+}
+
+input, textarea{
+    border: solid 1px black !important;
+}
+fieldset {
+    border: solid 1px gray !important;
+}
+.form-row {
+    margin: 10px 0;
+}
+/* Fixed & absoulute -> Pantalla */
+/* Relative -> Contenedor padre relative -> Body o documento */
+/* static -> Flujo normal */
