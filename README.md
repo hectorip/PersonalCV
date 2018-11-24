@@ -1,4 +1,5 @@
-# PersonalCV
+# Personal CV - HTML, CSS y Git, Github Pages
 
 
-Mi CV, práctica de HTML, CSS y Git, para The Dojo MX
+Práctica de HTML, CSS y Git, para The Dojo MX.
+
